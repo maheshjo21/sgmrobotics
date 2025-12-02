@@ -1,48 +1,92 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>SGM Robotics | Smart Automation</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+/* ==== GLOBAL ==== */
+body {
+    background: #F7F9FC;        /* Soft white */
+    color: #333;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
 
-<header>
-    <h1>SGM Robotics</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="products.html">Products</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
 
-<section class="hero">
-    <h2>Smart Robotics & Automation Solutions</h2>
-    <p>Affordable robots for homes & businesses in Pune</p>
-</section>
+/* ==== HEADER ==== */
+header {
+    background: #FFFFFF;
+    border-bottom: 2px solid #E3E6EB;
+    padding: 15px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
 
-<section class="features">
-    <div class="box">
-        <h3>Robot Vacuum Cleaner</h3>
-        <p>Autonomous cleaning for your home.</p>
-    </div>
-    <div class="box">
-        <h3>Window Cleaning Robot</h3>
-        <p>Smart vertical cleaning for glass.</p>
-    </div>
-    <div class="box">
-        <h3>Lawn Mower Robot</h3>
-        <p>Automatic garden grass cutting.</p>
-    </div>
-    <div class="box">
-        <h3>Pool Cleaning Robot</h3>
-        <p>Efficient water surface cleaning.</p>
-    </div>
-</section>
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #003366;     /* Deep Navy Blue */
+    font-weight: 700;
+}
 
-<footer>
-    <p>© 2025 SGM Robotics | Pune</p>
-</footer>
+/* Navigation */
+nav a {
+    color: #0056D2;     /* Royal Blue */
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+nav a:hover {
+    color: #FF7A00;     /* Saffron Highlight */
+}
 
-</body>
-</html>
+/* ==== SECTIONS / CARDS ==== */
+.section {
+    background: #FFFFFF;
+    padding: 30px;
+    margin: 25px 0;
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.05);
+}
+
+h2, h3 {
+    color: #003366;
+}
+
+/* Buttons */
+.btn {
+    background: #0056D2;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #FF7A00;
+}
+
+/* ==== FOOTER ==== */
+footer {
+    background: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 3px solid #FF7A00;
+}
+
+footer p {
+    margin: 8px 0;
+    color: #FF7A00;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Small text */
+footer small {
+    color: #555;
+}
