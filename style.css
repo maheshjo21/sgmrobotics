@@ -1,57 +1,92 @@
+/* ==== GLOBAL ==== */
 body {
-    background: #F7F9FC;
-    color: #333333;
-    font-family: Arial, sans-serif;
+    background: #F7F9FC;        /* Soft white */
+    color: #333;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-/* Header */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ==== HEADER ==== */
 header {
     background: #FFFFFF;
-    border-bottom: 1px solid #E5E7EB;
-}
-
-/* Main Buttons */
-button,
-.btn {
-    background-color: #0056D2;
-    color: #FFFFFF;
-    border-radius: 6px;
-    padding: 10px 18px;
-    border: none;
-}
-
-/* Links */
-a {
-    color: #0056D2;
-    text-decoration: none;
-}
-a:hover {
-    color: #FF7A00;
-}
-
-/* Titles */
-h1, h2, h3 {
-    color: #003366;
-}
-
-/* Cards / Sections */
-.section {
-    background: #FFFFFF;
-    padding: 25px;
-    border-radius: 10px;
-    border: 1px solid #E5E7EB;
+    border-bottom: 2px solid #E3E6EB;
+    padding: 15px 0;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
-/* Footer */
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #003366;     /* Deep Navy Blue */
+    font-weight: 700;
+}
+
+/* Navigation */
+nav a {
+    color: #0056D2;     /* Royal Blue */
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+nav a:hover {
+    color: #FF7A00;     /* Saffron Highlight */
+}
+
+/* ==== SECTIONS / CARDS ==== */
+.section {
+    background: #FFFFFF;
+    padding: 30px;
+    margin: 25px 0;
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.05);
+}
+
+h2, h3 {
+    color: #003366;
+}
+
+/* Buttons */
+.btn {
+    background: #0056D2;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #FF7A00;
+}
+
+/* ==== FOOTER ==== */
 footer {
     background: #FFFFFF;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
     margin-top: 40px;
-    border-top: 2px solid #FF7A00;
+    border-top: 3px solid #FF7A00;
 }
+
 footer p {
+    margin: 8px 0;
     color: #FF7A00;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Small text */
+footer small {
+    color: #555;
 }
