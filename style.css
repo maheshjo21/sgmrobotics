@@ -1,0 +1,62 @@
+body {
+    margin:0;
+    font-family: Arial;
+}
+
+header {
+    background:#111;
+    color:#fff;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header a {
+    color:#fff;
+    margin:0 10px;
+    text-decoration:none;
+}
+
+.hero {
+    background:#007bff;
+    color:#fff;
+    padding:80px;
+    text-align:center;
+}
+
+.features, .products {
+    display:flex;
+    justify-content:space-around;
+    padding:30px;
+}
+
+.box, .card {
+    background:#f2f2f2;
+    padding:20px;
+    width:22%;
+    border-radius:10px;
+    text-align:center;
+}
+
+.contact form {
+    width:300px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+}
+
+.contact input, .contact textarea {
+    margin:10px 0;
+    padding:10px;
+    border-radius:5px;
+    border:1px solid #999;
+}
+
+button {
+    padding:10px;
+    background:#007bff;
+    color:white;
+    border:none;
+    border-radius:5px;
+}
